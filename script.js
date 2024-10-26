@@ -1,4 +1,3 @@
-let humanScore, computerScore = 0
 
 function getComputerChoice(){
     let computerChoice = ""
@@ -67,4 +66,9 @@ function playRound(humanChoice, computerChoice){
             humanScore++
         }
     }
+}
+
+function playGame(){
+    let humanScore, computerScore = 0
+    
 }
